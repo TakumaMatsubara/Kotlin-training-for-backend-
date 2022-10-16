@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*
 class GreeterController {
     @GetMapping("/hello")
     fun hello(@RequestParam("name") name: String): HelloResponse {
-        return HelloResponse("Hello $name")
+        return HelloResponse("Helloooo $name")
     }
 
     @GetMapping("/hello/{name}")
